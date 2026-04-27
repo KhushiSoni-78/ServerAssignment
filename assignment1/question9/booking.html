@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>Hotel Booking</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="heritage.html">Heritage</a>
+        <a href="booking.html">Hotel Booking</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+</header>
+<div class="container">
+    <p>
+        Tourists visiting Jaipur can book hotels in advance using the form below.
+        Please provide accurate details to ensure a comfortable stay.
+    </p>
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" required><br><br>
+        <label>Email Address:</label><br>
+        <input type="email" required><br><br>
+        <label>Phone Number:</label><br>
+        <input type="tel" required><br><br>
+        <label>Check-in Date:</label><br>
+        <input type="date" required><br><br>
+        <label>Check-out Date:</label><br>
+        <input type="date" required><br><br>
+        <label>Room Type:</label><br>
+        <select>
+            <option>Single Room</option>
+            <option>Double Room</option>
+            <option>Deluxe Room</option>
+            <option>Suite</option>
+        </select><br><br>
+        <label>Number of Guests:</label><br>
+        <input type="number" min="1" max="5"><br><br>
+        <input type="submit" value="Book Now">
+    </form>
+</div>
+</body>
+</html>
